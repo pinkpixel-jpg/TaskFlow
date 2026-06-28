@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalInstance = new TaskModal('modal-container');
 
   const contentContainer = document.getElementById('content-container');
-  
+
   let currentViewInstance = null;
   let currentViewName = null;
 
