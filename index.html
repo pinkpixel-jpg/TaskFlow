@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow Pro — SaaS Productivity Dashboard</title>
+  
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Left Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <!-- Sidebar brand and navigation will be dynamically injected/configured here -->
+    </aside>
+
+    <!-- Main Section -->
+    <div class="main-wrapper">
+      <!-- Top Navigation Header -->
+      <header class="main-header" id="main-header">
+        <!-- Header widgets will be dynamically injected here -->
+      </header>
+
+      <!-- Dashboard/Views Content Window -->
+      <main class="content-container" id="content-container">
+        <!-- Dynamic views (Dashboard, Tasks, Analytics, Calendar, Settings) are mounted here -->
+      </main>
+    </div>
+  </div>
+
+  <!-- Modal Target Containers -->
+  <div id="modal-container" class="modal-overlay hidden"></div>
+  <div id="confirm-container" class="confirm-overlay hidden"></div>
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Bootstrapper Script -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
